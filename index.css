@@ -1,0 +1,33 @@
+*{
+  margin: 0;padding: 0;font-family: sans-serif;
+}
+
+body{
+  background-color: rgb(255, 154, 83);
+  /* width: 100%; */
+}
+
+.container{
+  height: 200px;
+  width: 400px;
+  margin: 200px auto;
+  /* background-color: rgb(248, 222, 190); */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button{
+  height: 2rem;
+  width: 4rem;
+  color: rgb(3, 3, 3);
+  background-color: rgb(246, 198, 135);
+}
+button:hover{
+  box-shadow: 0px 3px 8px rgba(11, 11, 11, 0.5);
+}
+
+p{
+  font-size: 40px;
+  font-weight: bold;
+}
